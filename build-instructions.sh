@@ -205,6 +205,15 @@ rm $HOME/Library/Preferences/crrcsim.xml
 open $HOME/crrcsim.app
 
 
-# INSTALL TO APPLICATIONS FOLDER
+
+# OPTIONALLY, CREATE A DMG DISK IMAGE
+# For options how to create dmg images, see the following webpages:
+# http://dmgcreator.sourceforge.net/
+# http://wiki.octave.org/Create_a_MacOS_X_App_Bundle_Using_MacPorts#Create_an_Installer_DMG
+# http://stackoverflow.com/questions/96882/how-do-i-create-a-nice-looking-dmg-for-mac-os-x-using-command-line-tools
+
+
+
+# OPTIONALLY, INSTALL TO APPLICATIONS FOLDER
 mv $HOME/crrcsim.app /Applications
 
