@@ -17,4 +17,4 @@ Alternatively, see [build-instructions.sh](build-instructions.sh) if you want to
 About
 -----
 
-Brought to you by [Johannes Harms](http://johannesharms.com), see this [blog post](http://johannesharms.com/posts/2014-01-12-compiling-crrcsim-on-mac-os-mavericks.html). Licensed under the [GNU Public License](LICENSE).
+Brought to you by [Johannes Harms](http://johannesharms.com),  licensed under the [GNU Public License](LICENSE).
