@@ -38,13 +38,13 @@ rmdir crrcsim-0.9.12
 
 
 # APPLY A PATCH
-# Apply a patch to crrcsim/src/mod_misc/filesystools.cpp. 
+# Apply a patch to crrcsim/src/mod_misc/filesystools.cpp.
 # This is needed so CRRCSim can correctly find its resources inside the app bundle.
 # The patch is inspired by the following blog post:
 # http://blog.mywarwithentropy.com/2012/03/how-to-compile-crrcsim-v0912-for-mac.html
 # ...but has been heavily modified to work on OSX Mavericks.
 cd ~/repos/crrcsim
-patch -p0 << 'EOF'
+patch -p1 -R << 'EOF'
 diff --git a/src/mod_misc/filesystools.cpp b/src/mod_misc/filesystools.cpp
 index b20eb3a..d085eb7 100644
 --- a/src/mod_misc/filesystools.cpp
@@ -57,7 +57,7 @@ index b20eb3a..d085eb7 100644
 -# include <CoreFoundation/CoreFoundation.h> // CFBundleGetMainBundle()
 -
  #endif
- 
+
  #ifdef WIN32
 @@ -187,49 +184,13 @@ void FileSysTools::getSearchPathList(std::vector<std::string>& pathlist, std::st
    #endif
@@ -216,4 +216,3 @@ open $HOME/crrcsim.app
 
 # OPTIONALLY, INSTALL TO APPLICATIONS FOLDER
 mv $HOME/crrcsim.app /Applications
-
