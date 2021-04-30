@@ -1,8 +1,16 @@
+ARCHIVED, not actively maintained, see project status below.
+
+
 CRRCSim-Mac
 ===========
 
 [CRRCSim](http://sourceforge.net/apps/mediawiki/crrcsim/) build instructions and binaries for Mac OS.
 
+
+Project Status
+--------------
+
+This repository is not actively maintained anymore.
 
 
 Getting started
@@ -28,4 +36,4 @@ An automated build process using Vagrant is work in progress. It is currently hi
 About
 -----
 
-Brought to you by [Johannes Harms](http://johannesharms.com),  licensed under the [GNU Public License](LICENSE).
+Brought to you by [johannesjh](https://github.com/johannesjh/), licensed under the [GNU Public License](LICENSE).
